@@ -15,11 +15,13 @@ public class Animal
 
     }
 
-    public void checkSound() {
-        System.out.println("Животное издает звук");
-    }
     Animal() {
 
     }
+
+    public void checkSound() {
+        System.out.println("Животное издает звук");
+    }
+
 
 }

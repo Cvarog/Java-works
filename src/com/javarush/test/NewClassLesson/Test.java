@@ -20,6 +20,10 @@ public class Test
         Animal woofy = new Animal();
         System.out.println(woofy.getName());
 
+        Animal megaCat = new Cat();
+        megaCat.setName("МегаКот");
+        System.out.println(megaCat instanceof Cat);
+
 //        int x = 0;
 //            while (x <= 10) {
 //                x++;

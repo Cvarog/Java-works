@@ -6,6 +6,7 @@ package com.javarush.test.NewClassLesson;
 public class Cat extends Animal{
 
     public void checkSound() {
+//        super.checkSound();
         System.out.println("Котик мяукает");
     }
 }
