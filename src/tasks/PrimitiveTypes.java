@@ -26,6 +26,7 @@ public class PrimitiveTypes
         Integer b = 5;//упаковка
         b += 5;//распаковка
         int z = 10;
+        Integer y = 10;
         System.out.println(b.byteValue());
         System.out.println(b.equals(z));
 
@@ -41,5 +42,6 @@ public class PrimitiveTypes
         int v = 10;
         fs = String.format("I have %d money",v);
         System.out.println(fs.toUpperCase());
+
     }
 }

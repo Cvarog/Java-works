@@ -18,6 +18,5 @@ public class InterfaceClassTest implements InterfaceTest {
         InterfaceClassTest check = new InterfaceClassTest();
         check.eat();
         check.drink();
-
     }
 }

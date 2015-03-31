@@ -1,7 +1,5 @@
 package tasks;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.*;
 
 /**
  * Created by Артем on 07.02.2015.
@@ -85,5 +83,35 @@ public class ArrayCheck
         System.out.println(x);
 
         System.out.println(sumArray(ar));
+
+
+        LinkedList list = new LinkedList();
+        list = (LinkedList) newListLinked.clone();
+
+        System.out.println(list.hashCode());
+
+        ArrayList<Integer> bList = new ArrayList();
+        bList.add(1);
+        bList.add(2);
+        bList.add(3);
+        bList.add(4);
+        bList.add(5);
+        bList.add(5);
+
+        Set<Integer> newSet = new HashSet();
+        newSet.addAll(bList);
+        System.out.println(newSet);
+
+        Map<String, Integer> map = new HashMap();
+        map.put("Возраст", 27);
+        map.put("Рост", 180);
+        map.put("Вес", 80);
+
+        Set<String> set = map.keySet();
+        for (String item : set){
+            System.out.println(map.get(item));
+        }
+        
+
     }
 }

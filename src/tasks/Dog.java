@@ -60,6 +60,9 @@
             System.out.println(pets[2].getSize());
             pets[2].Gav();
 
+            Dog kitty = new Cat();
+            System.out.println(kitty.getClass().getName());
+
 
         }
     }
