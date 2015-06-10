@@ -111,7 +111,22 @@ public class ArrayCheck
         for (String item : set){
             System.out.println(map.get(item));
         }
-        
 
+//        ArrayCheck[] arrays = new ArrayCheck[100];
+//        for(int i = 0; i < 100; i++){
+//            arrays[i] = new ArrayCheck();
+//            System.out.println(arrays[i]);
+//        }
+
+        String[] data = {
+                "Today - Sunny - 31",
+                "Tomorrow - Foggy - 22",
+                "Weds - Cloudy - 26",
+                "Thurs - Rainy - 19",
+                "Fri - Sunny - 30",
+                "Sat - Sunny - 31"
+        };
+
+        List<String> weekForecast = new ArrayList<String>(Arrays.asList(data));
     }
 }
